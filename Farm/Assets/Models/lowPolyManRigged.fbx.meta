@@ -21,6 +21,9 @@ ModelImporter:
   - first:
       74: 5269128506079621549
     second: Armature|running.001
+  - first:
+      74: -2762156258449003241
+    second: Armature|running.001 (1)
   externalObjects: {}
   materials:
     materialImportMode: 1

@@ -12,6 +12,9 @@ ModelImporter:
   - first:
       74: 6930854482919300512
     second: Armature|Walking (2)
+  - first:
+      74: 6930854482919300512
+    second: Armature|Walking (1)
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -41,7 +44,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|Walking (2)
+      name: Armature|Walking (1)
       takeName: Armature|Walking
       internalID: 0
       firstFrame: 0
