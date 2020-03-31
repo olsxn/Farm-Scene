@@ -33,7 +33,6 @@ public class CameraController : MonoBehaviour
         pivot.parent = target.transform;
     }
 
-    // Update is called once per frame
     void LateUpdate()
     {
         // get x pos of mouse and rotate target

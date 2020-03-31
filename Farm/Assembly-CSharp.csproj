@@ -58,7 +58,7 @@
      <Compile Include="Assets\Scripts\AnimControl.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
+     <None Include="Assets\Materials\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Materials\Cartoon_Farm_Crops\README.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Halil/GitRepos/Farm-Scene/Farm/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

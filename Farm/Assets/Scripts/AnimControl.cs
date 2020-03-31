@@ -22,7 +22,9 @@ public class AnimControl : MonoBehaviour
         {
             anim.Play("running");
         }
-            
-        //anim.Play("resting");
+        if (Input.GetKeyDown("e"))
+        {
+            anim.Play("resting");
+        }
     }
 }
