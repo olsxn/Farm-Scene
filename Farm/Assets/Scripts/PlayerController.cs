@@ -39,7 +39,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-
         // get input for movement, store y vector to fix jumping
         float yStore = moveDirection.y;
         moveDirection = (transform.forward * Input.GetAxisRaw("Vertical")) + (transform.right * Input.GetAxisRaw("Horizontal"));
@@ -48,14 +47,8 @@ public class PlayerController : MonoBehaviour
         moveDirection = moveDirection.normalized * moveSpeed;
         moveDirection.y = yStore;
 
-        //get input for jumping, if player is touching the ground
-        if (controller.isGrounded)
-        {
-            moveDirection.y = 0f;
-            if (Input.GetButtonDown("Jump"))
-            {
-                Jump();
-            }
+        if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded) {
+            Jump();
         }
 
         // add gravity to player, Time.deltaTime smooths it

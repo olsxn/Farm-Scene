@@ -24,6 +24,9 @@ ModelImporter:
   - first:
       74: -2762156258449003241
     second: Armature|running.001 (1)
+  - first:
+      74: 8122661947741112563
+    second: Armature|jump (1)
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -96,7 +99,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -125,7 +128,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

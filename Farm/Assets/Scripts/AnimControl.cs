@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnimControl : MonoBehaviour
 {
 
-    public Animator anim;
+    Animator anim;
 
     private void Start()
     {
@@ -14,15 +14,18 @@ public class AnimControl : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             anim.Play("jumping");
         }
-        if (Input.GetKeyDown("w"))
+        if (Input.GetKeyDown(KeyCode.W))
         {
-            anim.Play("running");
+            anim.CrossFade("running", 0.5f);
         }
-        if (Input.GetKeyDown("e"))
+        if (Input.GetKeyUp(KeyCode.W)) {
+            anim.CrossFade("resting", 0.2f);
+        }
+        if (Input.GetKeyDown(KeyCode.E))
         {
             anim.Play("resting");
         }
