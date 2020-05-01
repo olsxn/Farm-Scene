@@ -11,9 +11,9 @@ public class PigAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
-        anim.Play("pigWalking");
-        anim.Play("walking");
+        // anim = GetComponent<Animator>();
+        // anim.Play("pigWalking");
+        // anim.Play("walking");
     }
 
     // Update is called once per frame
