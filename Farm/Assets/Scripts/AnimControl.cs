@@ -25,9 +25,5 @@ public class AnimControl : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.W)) {
             anim.CrossFade("resting", 0.2f);
         }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            anim.Play("resting");
-        }
     }
 }
